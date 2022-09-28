@@ -8,20 +8,20 @@ public class While
     int k = 6;
     
     public void run() {
-        while (i < 15) {
+        do {
             System.out.println(i);
             i++;
-        }
-        while (k > 5) {
+        } while (i < 15);
+        do {
             System.out.println(k);
             k++;
-        }
-        while (a < 10 && b <= 20) {
+        } while (k > 5);
+        do {
             System.out.println(a);
             System.out.println(b);
             a++;
             b++;
-        }
+        } while (a < 10 && b <= 20);
     }
     
     
