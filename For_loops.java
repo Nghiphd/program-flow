@@ -9,11 +9,12 @@ public class For_loops
         for (int i = 0; i <= 15; i = i + 1) {
             System.out.println(i);
         }
-        for (int j = 10; j >= 0; j = j + (-2)) {
+        for (int j = 10; j != 0; j = j + (-2)) {
             System.out.println(j);
         }
-        for (int k = 10; k >= 0; k = k + (-3)) {
+        for (int k = 10; k != 0; k = k + (-3)) {
             System.out.println(k);
+            //
         }
     }
     
